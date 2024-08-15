@@ -78,10 +78,11 @@ body {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
+	font-weight: 800;
 }
 .about-me__introduction {
 	font-family: 'Spectral';
-	font-weight: 800;
+	font-weight: 500;
 	font-style: italic;
 	width: 60%;
 }
@@ -101,13 +102,14 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-weight: 800;
 }
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #4c1616;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
