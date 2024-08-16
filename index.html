@@ -9,15 +9,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+	<meta name="description" content="Organisez vos séances photos de rêve avec Nina Carducci. Téléphone : 05 56 67 78 89. Ouvert du lundi au vendredi de 10 h à 19 h, 68 avenue Alsace-Lorraine, 33200 Bordeaux.">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
 </head>
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
-	<div class="nav">   
+	<nav class="nav" aria-label="Navigation">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -25,10 +23,9 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="./assets/images/instagram.png" alt="Instagram"></a></li>
 		</ul>
-	</div>
-</div>
+	</nav>
+</header>
 <div id="header">
-
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -48,14 +45,15 @@
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
+			<span class="visually-hidden sr-color">Previous</span>
 		</button>
 		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
+			<span class="visually-hidden sr-color">Next</span>
 		</button>
 	</div>
 </div>
+<main>
 <div id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" alt="Photo de Nina Carducci">
@@ -135,7 +133,8 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
-<div id="contact">
+</main>
+<footer id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h2>Une question ? Une demande de devis ?</h2>
@@ -154,6 +153,9 @@
 			<img src="./assets/images/camera.webp" class="camera" alt="Contactez-moi">
 		</div>
 	</div>
-</div>
+</footer>
+<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+<script src="./assets/maugallery.js" defer></script>
+<script src="./assets/scripts.js" defer></script>
 </body>
 </html>
