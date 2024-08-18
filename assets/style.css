@@ -370,9 +370,19 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+		display: flex;
+		justify-content: center;
 	}
-	#header{
+	.about-me__introduction {
+		font-size: 20px;
+	}
+	.picture img{
+		width: 70%;
+	}
+	/* #header{
 		display: none;
-	}
+		visibility: hidden;
+	} */
+
 }
 
