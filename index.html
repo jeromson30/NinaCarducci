@@ -10,6 +10,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<meta name="description" content="Organisez vos séances photos de rêve avec Nina Carducci. Téléphone : 05 56 67 78 89. Ouvert du lundi au vendredi de 10 h à 19 h, 68 avenue Alsace-Lorraine, 33200 Bordeaux.">
+	<meta name="language" content="fr-FR">
+	<meta property="og:site_name" content="Nina Carducci" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://ninacarducci.pro" />
+	<meta property="og:title" content="Nina Carducci : Photographe professionnel à Bordeaux" />
+	<meta property="og:description" content="Organisez vos séances photos de rêve avec Nina Carducci. Téléphone : 05 56 67 78 89. Ouvert du lundi au vendredi de 10 h à 19 h, 68 avenue Alsace-Lorraine, 33200 Bordeaux." />
+	<meta property="og:image" content="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" />
 </head>
 <body>
 <header class="top-header">
@@ -33,13 +40,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img srcset="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_mobil.webp 412w" sizes="(max-width: 650px) 412px" src="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="...">
+				<img srcset="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash_mobil.webp 412w, assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1440w" sizes="(max-width: 650px) 412px, (min-width: 651px) 1440px" src="assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img srcset="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_mobil.webp 412w" sizes="(max-width: 650px) 412px" src="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="..." loading="lazy">
+				<img srcset="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash_mobil.webp 412w, assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp 1440w" sizes="(max-width: 650px) 412px, (min-width: 651px) 1440px" src="assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="..." loading="lazy">
 			</div>
 			<div class="carousel-item">
-				<img srcset="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_mobil.webp 412w" sizes="(max-width: 650px) 412px" src="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="..." loading="lazy">
+				<img srcset="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash_mobil.webp 412w, assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1440w" sizes="(max-width: 650px) 412px, (min-width: 651px) 1440px" src="assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="..." loading="lazy">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -135,8 +142,8 @@
 </main>
 <footer id="contact">
 	<div class="container">
-		<div class="form-container">
-			<h2>Une question ? Une demande de devis ?</h2>
+		<article class="form-container">
+			<h2>Une question ?</br>Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="#" method="post">
 				<label for="nom">Nom</label>
@@ -147,7 +154,23 @@
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 				<input type="submit" value="Envoyer"/>
 			</form>
-		</div>
+		</article>
+		<article class="coordonnees">
+			<h2>Coordonnées</h2>
+			<section>
+				<div itemscope itemtype="http://schema.org/LocalBusiness">
+					<span itemprop="name">Nina Carducci</span>
+					<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span></br>
+					<span itemprop="postalCode">33200</span>
+					<span itemprop="addressLocality">Bordeaux</span></br>
+					<span itemprop="addressRegion">Nouvelle-Aquitaine</span>
+				</div>
+			</br>
+				<p>Du Lundi au Vendredi de 10 h à 19 h</p>
+				<p>Téléphone : 05 56 67 78 89</p>
+			</section>
+		</article>
 		<div class="picture right">
 			<img src="./assets/images/camera.webp" class="camera" loading="lazy" alt="Contactez-moi">
 		</div>
