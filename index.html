@@ -155,24 +155,27 @@
 				<input type="submit" value="Envoyer"/>
 			</form>
 		</article>
-		<article class="coordonnees">
-			<h2>Coordonnées</h2>
-			<section>
-				<div itemscope itemtype="http://schema.org/LocalBusiness">
-					<span itemprop="name">Nina Carducci</span>
-					<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-					<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span></br>
-					<span itemprop="postalCode">33200</span>
-					<span itemprop="addressLocality">Bordeaux</span></br>
-					<span itemprop="addressRegion">Nouvelle-Aquitaine</span>
-				</div>
-			</br>
-				<p>Du Lundi au Vendredi de 10 h à 19 h</p>
-				<p>Téléphone : 05 56 67 78 89</p>
-			</section>
-		</article>
-		<div class="picture right">
-			<img src="./assets/images/camera.webp" class="camera" loading="lazy" alt="Contactez-moi">
+		<div itemscope itemtype="http://schema.org/LocalBusiness">
+			<article class="coordonnees">
+				<h2>Coordonnées</h2>
+				<section>
+						<span itemprop="name">Nina Carducci Photographe</span>
+						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span></br>
+							<span itemprop="postalCode">33200</span>
+							<span itemprop="addressLocality">Bordeaux</span></br>
+							<span itemprop="addressRegion">Nouvelle-Aquitaine</span>,<span itemprop="addressCountry">FR</span>
+						</div>
+						<meta itemprop="priceCurrency" content="EUR" />
+						</br>
+						<meta itemprop="openingHours" content="Mo-Fr 10:00-19:30"><p>Du Lundi au Vendredi de 10 h à 19 h</p>
+						<p>Téléphone : <span itemprop="telephone">05 56 67 78 89</span></p>
+						<meta itemprop="priceRange" content="50-400">
+				</section>
+			</article>
+			<div class="picture right">
+				<img src="./assets/images/camera.webp" class="camera" loading="lazy" alt="Contactez-moi" itemprop="image">
+			</div>
 		</div>
 	</div>
 </footer>
